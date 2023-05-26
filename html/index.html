@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta de Casino</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>RULETA DE APUESTAS</h1>
+        <div class="ruleta">
+            <img src="../img/ruleta.png" alt="Ruleta" id="imagenRuleta">
+            <div class="flecha"></div>
+        </div>
+        <div class="apuestas">
+            <div class="jugador">
+                <label for="saldo1">Jugador 1 - Ingrese su saldo:</label>
+                <input type="number" id="saldo1" placeholder="Saldo inicial">
+                <input type="number" id="monto1" placeholder="Monto a apostar">
+                <select id="opcion1">
+                    <option value="par">Par</option>
+                    <option value="impar">Impar</option>
+                    <option value="verde">Verde</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="negro">Negro</option>
+                </select>
+                <input type="number" id="numero1" placeholder="Número a apostar">
+                <div id="resultado1"></div>
+            </div>
+            <div class="jugador">
+                <label for="saldo2">Jugador 2 - Ingrese su saldo:</label>
+                <input type="number" id="saldo2" placeholder="Saldo inicial">
+                <input type="number" id="monto2" placeholder="Monto a apostar">
+                <select id="opcion2">
+                    <option value="par">Par</option>
+                    <option value="impar">Impar</option>
+                    <option value="verde">Verde</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="negro">Negro</option>
+                </select>
+                <input type="number" id="numero2" placeholder="Número a apostar">
+                <div id="resultado2"></div>
+            </div>
+            <div class="jugador">
+                <label for="saldo3">Jugador 3 - Ingrese su saldo:</label>
+                <input type="number" id="saldo3" placeholder="Saldo inicial">
+                <input type="number" id="monto3" placeholder="Monto a apostar">
+                <select id="opcion3">
+                    <option value="par">Par</option>
+                    <option value="impar">Impar</option>
+                    <option value="verde">Verde</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="negro">Negro</option>
+                </select>
+                <input type="number" id="numero3" placeholder="Número a apostar">
+                <div id="resultado3"></div>
+            </div>
+        </div>
+        <div class="button">
+        <button id="girar">¡Gira la ruleta!</button>
+        <button id="limpiar">Limpiar</button>
+        </div>
+        
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
